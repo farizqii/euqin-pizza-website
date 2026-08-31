@@ -6,9 +6,6 @@ A pizza menu application that showcases all of the existing pizzas in Euqin's Pi
 
 ## Problem
 
-Banyak Artist berada dalam kesulitan untuk memantau banyaknya
-komisi dari request berbagai klien.
-
 Euqin's Pizza Restaurant needed a website to showcase all of their pizzas for customers to order.
 
 ## Target User
@@ -24,7 +21,7 @@ A growing FnB business called Euqin's Pizza Restaurant.
 - Next.js.
 - React.
 - JavaScript.
-- Vanilla CSS.
+- Tailwind CSS.
 - Vercel.
 
 ## Local Setup

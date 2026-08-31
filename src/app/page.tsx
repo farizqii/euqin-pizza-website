@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="mx-auto flex max-w-[50rem] flex-col items-center gap-12">
+    <div className="mx-auto flex max-w-200 flex-col items-center gap-12">
       <Navbar />
       <Menu />
       <Footer />

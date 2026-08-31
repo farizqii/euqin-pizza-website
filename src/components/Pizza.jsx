@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Pizza({ pizzaObj }) {
   return (
     <li
-      className={`flex gap-6 rounded-xl bg-white p-4 shadow-sm items-start ${
+      className={`flex gap-6 rounded-3xl bg-white outline-1 hover:bg-yellow-100 hover:outline-2 p-4 shadow-xl items-start ${
         pizzaObj.soldOut ? "text-muted opacity-70" : ""
       }`}
     >
