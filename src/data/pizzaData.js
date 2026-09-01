@@ -47,4 +47,52 @@ export const pizzaData = [
     photoName: "/pizzas/prosciutto.jpg",
     soldOut: false,
   },
+  {
+    name: "Pizza Quattro Formaggi",
+    ingredients:
+      "A rich and decadent pizza topped with a blend of four cheeses: mozzarella, gorgonzola, parmesan, and provolone.",
+    price: 16,
+    photoName: "/pizzas/focaccia.jpg",
+    soldOut: false,
+  },
+  {
+    name: "Pizza Diavola",
+    ingredients:
+      "A fiery favorite topped with tomato sauce, mozzarella, spicy Italian salami, and crushed red chili flakes.",
+    price: 14,
+    photoName: "/pizzas/focaccia.jpg",
+    soldOut: false,
+  },
+  {
+    name: "Pizza Capricciosa",
+    ingredients:
+      "A hearty Italian classic featuring prosciutto, mushrooms, artichoke hearts, black olives, and a rich tomato sauce.",
+    price: 17,
+    photoName: "/pizzas/focaccia.jpg",
+    soldOut: false,
+  },
+  {
+    name: "Pizza Vegetariana",
+    ingredients:
+      "A fresh and colorful option loaded with grilled eggplant, zucchini, bell peppers, and cherry tomatoes over melted mozzarella.",
+    price: 13,
+    photoName: "/pizzas/focaccia.jpg",
+    soldOut: false,
+  },
+  {
+    name: "Pizza Napoletana",
+    ingredients:
+      "A bold, savory pizza topped with tomato sauce, fresh mozzarella, anchovy fillets, capers, and black olives.",
+    price: 14,
+    photoName: "/pizzas/focaccia.jpg",
+    soldOut: false,
+  },
+  {
+    name: "Pizza Bianca",
+    ingredients:
+      "A white pizza layered with creamy ricotta, mozzarella, roasted garlic, and a drizzle of extra virgin olive oil, with no tomato sauce.",
+    price: 11,
+    photoName: "/pizzas/focaccia.jpg",
+    soldOut: false,
+  },
 ];

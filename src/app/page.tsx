@@ -1,11 +1,10 @@
-import Navbar from "../components/Navbar";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="mx-auto flex max-w-200 flex-col items-center gap-12">
-      <Navbar />
+    // Increased from max-w-7xl to max-w-[1800px] to give 4 columns enough breathing room
+    <div className="mx-auto flex w-full max-w-[1800px] flex-col items-center gap-12">
       <Menu />
       <Footer />
     </div>

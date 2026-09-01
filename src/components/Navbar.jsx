@@ -1,9 +1,46 @@
+import Image from "next/image";
+
 export default function Navbar() {
   return (
-    <header className="self-stretch">
-      <h1 className="relative block w-full text-center text-[3.25rem] font-light uppercase tracking-[3px] text-brand before:absolute before:top-1/2 before:left-0 before:h-0.75 before:w-10 before:-translate-y-1/2 before:bg-brand before:content-[''] after:absolute after:top-1/2 after:right-0 after:h-0.75 after:w-10 after:-translate-y-1/2 after:bg-brand after:content-['']">
-        Fast React Pizza Co.
-      </h1>
+    <header className="top-0 z-50 w-full backdrop-blur-sm">
+      <div className="w-full bg-white shadow-lg">
+        <div className="flex h-20 items-center justify-between px-5">
+          <div className="flex flex-1 items-center">
+            <span className="py-2.5 text-2xl font-extrabold tracking-wide text-black">
+              Euqin&apos;s <span className="text-[#E63946]">Pizzas</span>
+            </span>
+          </div>
+
+          <nav className="hidden md:block">
+            <ul className="flex item-center gap-1 text-sm font-medium">
+              <li>
+                <a
+                  className="block px-5 py-2.5 text-black text-lg hover:text-xl"
+                  href="#"
+                >
+                  Our Values
+                </a>
+              </li>
+              <li>
+                <a
+                  className="block px-5 py-2.5 text-black text-lg hover:text-xl"
+                  href="#"
+                >
+                  Menu
+                </a>
+              </li>
+              <li>
+                <a
+                  className="block px-5 py-2.5 text-black text-lg hover:text-xl"
+                  href="#"
+                >
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
   );
 }

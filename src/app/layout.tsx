@@ -1,4 +1,5 @@
 import "./globals.css";
+import Navbar from "../components/Navbar"; // Adjust this import path if your file is in a components folder
 
 export const metadata = {
   title: "Fast React Pizza Co.",
@@ -12,8 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen border-b-4 border-brand bg-cream px-8 pt-8 pb-15 font-normal text-charcoal">
-        {children}
+      <body className="min-h-screen border-b-4 bg-white font-normal text-charcoal">
+        <Navbar />
+        <main className="px-8 pb-15 pt-8">{children}</main>
       </body>
     </html>
   );

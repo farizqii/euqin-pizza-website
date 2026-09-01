@@ -6,24 +6,20 @@ export default function Menu() {
   const numPizzas = pizzas.length;
 
   return (
-    <main className="flex flex-col items-center gap-10">
-      <h2 className="inline-block border-y-2 border-current py-2.5 text-2xl font-medium uppercase tracking-[3px]">
-        Our menu
-      </h2>
+    <main className="flex w-full flex-col items-center gap-10">
+      <h1 className="text-4xl font-black">
+        Our <span className="text-[#E63946]">Menu.</span>
+      </h1>
 
       {numPizzas > 0 ? (
-        <>
-          <p className="w-4/5 text-center text-[0.9375rem] leading-[1.6]">
-            Authentic Italian cuisine. 6 creative dishes to choose from. All
-            from our stone oven, all organic, all delicious.
-          </p>
-
-          <ul className="grid list-none grid-cols-2 gap-12">
+        // Removed max-w-350 and added md:px-8 for better edge spacing
+        <div className="w-full px-4 md:px-8">
+          <ul className="grid w-full list-none grid-cols-1 gap-8 rounded-3xl bg-[#F1FAEE] p-6 shadow-[inset_0_20px_25px_rgba(0,0,0,0.15)] sm:grid-cols-2 lg:grid-cols-4 md:p-10">
             {pizzas.map((pizza) => (
               <Pizza pizzaObj={pizza} key={pizza.name} />
             ))}
           </ul>
-        </>
+        </div>
       ) : (
         <p>{"We're still working on our menu. Please come back later :)"}</p>
       )}
