@@ -52,7 +52,7 @@ export const pizzaData = [
     ingredients:
       "A rich and decadent pizza topped with a blend of four cheeses: mozzarella, gorgonzola, parmesan, and provolone.",
     price: 16,
-    photoName: "/pizzas/focaccia.jpg",
+    photoName: "/pizzas/quattro-formaggi.jpg",
     soldOut: false,
   },
   {
@@ -60,7 +60,7 @@ export const pizzaData = [
     ingredients:
       "A fiery favorite topped with tomato sauce, mozzarella, spicy Italian salami, and crushed red chili flakes.",
     price: 14,
-    photoName: "/pizzas/focaccia.jpg",
+    photoName: "/pizzas/diavola.jpg",
     soldOut: false,
   },
   {
@@ -68,7 +68,7 @@ export const pizzaData = [
     ingredients:
       "A hearty Italian classic featuring prosciutto, mushrooms, artichoke hearts, black olives, and a rich tomato sauce.",
     price: 17,
-    photoName: "/pizzas/focaccia.jpg",
+    photoName: "/pizzas/capricciosa.jpg",
     soldOut: false,
   },
   {
@@ -76,7 +76,7 @@ export const pizzaData = [
     ingredients:
       "A fresh and colorful option loaded with grilled eggplant, zucchini, bell peppers, and cherry tomatoes over melted mozzarella.",
     price: 13,
-    photoName: "/pizzas/focaccia.jpg",
+    photoName: "/pizzas/vegetariana.jpg",
     soldOut: false,
   },
   {
@@ -84,7 +84,7 @@ export const pizzaData = [
     ingredients:
       "A bold, savory pizza topped with tomato sauce, fresh mozzarella, anchovy fillets, capers, and black olives.",
     price: 14,
-    photoName: "/pizzas/focaccia.jpg",
+    photoName: "/pizzas/napoletana.jpg",
     soldOut: false,
   },
   {
@@ -92,7 +92,7 @@ export const pizzaData = [
     ingredients:
       "A white pizza layered with creamy ricotta, mozzarella, roasted garlic, and a drizzle of extra virgin olive oil, with no tomato sauce.",
     price: 11,
-    photoName: "/pizzas/focaccia.jpg",
-    soldOut: false,
+    photoName: "/pizzas/bianca.jpg",
+    soldOut: true,
   },
 ];

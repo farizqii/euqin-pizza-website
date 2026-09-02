@@ -12,7 +12,6 @@ export default function Menu() {
       </h1>
 
       {numPizzas > 0 ? (
-        // Removed max-w-350 and added md:px-8 for better edge spacing
         <div className="w-full px-4 md:px-8">
           <ul className="grid w-full list-none grid-cols-1 gap-8 rounded-3xl bg-[#F1FAEE] p-6 shadow-[inset_0_20px_25px_rgba(0,0,0,0.15)] sm:grid-cols-2 lg:grid-cols-4 md:p-10">
             {pizzas.map((pizza) => (

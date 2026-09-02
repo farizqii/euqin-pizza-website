@@ -4,7 +4,7 @@ function Order({ closeHour, openHour }) {
   return (
     <div className="flex flex-col items-center gap-6">
       <p>
-        {`We're open from ${openHour}:00 to ${closeHour}:00. Come visit us or orderonline.`}
+        {`We're open from ${openHour}:00 to ${closeHour}:00. Come visit us or order online.`}
       </p>
       <button className="cursor-pointer bg-brand px-8 py-3.5 text-sm font-medium transition-colors duration-200 hover:bg-brand-dark">
         Order

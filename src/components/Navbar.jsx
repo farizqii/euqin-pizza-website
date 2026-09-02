@@ -5,7 +5,14 @@ export default function Navbar() {
     <header className="top-0 z-50 w-full backdrop-blur-sm">
       <div className="w-full bg-white shadow-lg">
         <div className="flex h-20 items-center justify-between px-5">
-          <div className="flex flex-1 items-center">
+          <div className="flex flex-1 items-center gap-3">
+            <Image
+              src="/brand-logo.png"
+              alt="Euqin's Pizzas Logo"
+              width={60}
+              height={60}
+              className="object-contain"
+            />
             <span className="py-2.5 text-2xl font-extrabold tracking-wide text-black">
               Euqin&apos;s <span className="text-[#E63946]">Pizzas</span>
             </span>
