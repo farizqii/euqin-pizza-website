@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <header className="top-0 z-50 w-full backdrop-blur-sm">
+    <header className="fixed top-0 z-50 w-full backdrop-blur-sm">
       <div className="w-full bg-white shadow-lg">
         <div className="flex h-20 items-center justify-between px-5">
           <div className="flex flex-1 items-center gap-3">
