@@ -6,9 +6,6 @@ function Order({ closeHour, openHour }) {
       <p>
         {`We're open from ${openHour}:00 to ${closeHour}:00. Come visit us or order online.`}
       </p>
-      <button className="cursor-pointer bg-brand px-8 py-3.5 text-sm font-medium transition-colors duration-200 hover:bg-brand-dark">
-        Order
-      </button>
     </div>
   );
 }
