@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Homepage() {
   return (
-    <main className="mb-32 flex w-full flex-col items-center gap-12 px-6 py-24 lg:flex-row lg:px-24">
+    <main className="mb-32 flex w-full flex-col items-center gap-12 px-6 py-40 lg:flex-row lg:px-24">
       <div className="w-full lg:w-1/2">
         <Image
           src="/pizza-home.jpg"
