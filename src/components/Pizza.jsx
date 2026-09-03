@@ -23,11 +23,20 @@ export default function Pizza({ pizzaObj }) {
         <p className="text-sm font-light italic text-gray-600">
           {pizzaObj.ingredients}
         </p>
-        <span
+        {/* <span
           className={`block text-lg font-bold mt-1 ${pizzaObj.soldOut ? "text-red-500" : "text-green-500"}`}
         >
           {pizzaObj.soldOut ? "Sold out!" : "$" + pizzaObj.price}
-        </span>
+        </span> */}
+        <button
+          className={`w-fit rounded-xl border-2 border-white ${
+            pizzaObj.soldOut
+              ? "ring-gray-500 bg-gray-500 hover:text-gray-500"
+              : "ring-[#E63946] bg-[#E63946]"
+          } px-4.5 py-1.5 text-lg font-bold text-white ring-2 transition-transform hover:scale-105 hover:bg-white hover:text-[#E63946]`}
+        >
+          {pizzaObj.soldOut ? "Sold Out!" : "Order Now!"}
+        </button>
       </div>
     </li>
   );

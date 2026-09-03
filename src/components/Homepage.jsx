@@ -9,7 +9,7 @@ export default function Homepage() {
           alt="Euqin's Pizzas Homepage"
           width={800}
           height={600}
-          className="h-auto w-full rounded-4xl object-cover shadow-2xl shadow-black/20 transition-transform hover:scale-105"
+          className="h-auto w-full rounded-4xl object-cover shadow-2xl shadow-black/20"
         />
       </div>
 
@@ -37,7 +37,7 @@ export default function Homepage() {
           </p>
         </div>
 
-        <button className="w-fit rounded-xl border-2 border-white bg-[#E63946] px-8 py-2.5 text-lg font-bold text-white ring-2 ring-[#E63946] transition-transform hover:scale-105">
+        <button className="w-fit rounded-xl border-2 border-white bg-[#E63946] px-8 py-2.5 text-lg font-bold text-white ring-2 ring-[#E63946] transition-transform hover:scale-105 hover:bg-white hover:text-[#E63946]">
           Learn more
         </button>
       </div>
